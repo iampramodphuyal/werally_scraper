@@ -1,0 +1,406 @@
+2025-11-02 17:18:11,102 | DEBUG | [Attempt 1] GET https://connect.werally.comhttps://connect.werally.com/rest/user/v1/guest/login | Params: None | Data: None
+2025-11-02 17:18:11,353 | WARNING | [Retry 1/5] Error calling https://connect.werally.comhttps://connect.werally.com/rest/user/v1/guest/login: [Errno -2] Name or service not known
+2025-11-02 17:18:11,353 | DEBUG | Sleeping for 1.50s before retry
+2025-11-02 17:18:12,853 | DEBUG | [Attempt 2] GET https://connect.werally.comhttps://connect.werally.com/rest/user/v1/guest/login | Params: None | Data: None
+2025-11-02 17:18:12,863 | WARNING | [Retry 2/5] Error calling https://connect.werally.comhttps://connect.werally.com/rest/user/v1/guest/login: [Errno -2] Name or service not known
+2025-11-02 17:18:12,863 | DEBUG | Sleeping for 2.25s before retry
+2025-11-02 17:18:15,113 | DEBUG | [Attempt 3] GET https://connect.werally.comhttps://connect.werally.com/rest/user/v1/guest/login | Params: None | Data: None
+2025-11-02 17:18:15,122 | WARNING | [Retry 3/5] Error calling https://connect.werally.comhttps://connect.werally.com/rest/user/v1/guest/login: [Errno -2] Name or service not known
+2025-11-02 17:18:15,122 | DEBUG | Sleeping for 3.38s before retry
+2025-11-02 17:18:18,497 | DEBUG | [Attempt 4] GET https://connect.werally.comhttps://connect.werally.com/rest/user/v1/guest/login | Params: None | Data: None
+2025-11-02 17:18:18,503 | WARNING | [Retry 4/5] Error calling https://connect.werally.comhttps://connect.werally.com/rest/user/v1/guest/login: [Errno -2] Name or service not known
+2025-11-02 17:18:18,503 | DEBUG | Sleeping for 5.06s before retry
+2025-11-02 17:19:03,718 | DEBUG | [Attempt 1] GET https://connect.werally.comhttps://connect.werally.com/rest/user/v1/guest/login | Params: None | Data: None
+2025-11-02 17:19:03,763 | WARNING | [Retry 1/5] Error calling https://connect.werally.comhttps://connect.werally.com/rest/user/v1/guest/login: [Errno -2] Name or service not known
+2025-11-02 17:19:03,763 | DEBUG | Sleeping for 1.50s before retry
+2025-11-02 17:19:05,264 | DEBUG | [Attempt 2] GET https://connect.werally.comhttps://connect.werally.com/rest/user/v1/guest/login | Params: None | Data: None
+2025-11-02 17:19:05,274 | WARNING | [Retry 2/5] Error calling https://connect.werally.comhttps://connect.werally.com/rest/user/v1/guest/login: [Errno -2] Name or service not known
+2025-11-02 17:19:05,274 | DEBUG | Sleeping for 2.25s before retry
+2025-11-02 17:19:07,524 | DEBUG | [Attempt 3] GET https://connect.werally.comhttps://connect.werally.com/rest/user/v1/guest/login | Params: None | Data: None
+2025-11-02 17:19:07,543 | WARNING | [Retry 3/5] Error calling https://connect.werally.comhttps://connect.werally.com/rest/user/v1/guest/login: [Errno -2] Name or service not known
+2025-11-02 17:19:07,543 | DEBUG | Sleeping for 3.38s before retry
+2025-11-02 17:20:06,715 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/user/v1/guest/login | Params: None | Data: None
+2025-11-02 17:20:07,710 | DEBUG | [Success] GET https://connect.werally.com/rest/user/v1/guest/login | Status: 200
+2025-11-02 17:24:45,951 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/user/v1/guest/login | Params: None | Data: None
+2025-11-02 17:24:46,955 | DEBUG | [Success] GET https://connect.werally.com/rest/user/v1/guest/login | Status: 200
+2025-11-02 17:30:55,774 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Params: None | Data: None
+2025-11-02 17:31:02,957 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Status: 200
+2025-11-02 17:31:02,958 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Params: None | Data: None
+2025-11-02 17:31:03,964 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Status: 200
+2025-11-02 17:31:03,965 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Params: None | Data: None
+2025-11-02 17:31:04,916 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Status: 200
+2025-11-02 17:31:04,919 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Params: None | Data: None
+2025-11-02 17:31:05,427 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Status: 200
+2025-11-02 17:31:05,427 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Params: None | Data: None
+2025-11-02 17:31:05,899 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Status: 200
+2025-11-02 17:32:28,646 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Params: None | Data: None
+2025-11-02 17:32:29,706 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Status: 200
+2025-11-02 17:32:58,015 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Params: None | Data: None
+2025-11-02 17:32:58,990 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Status: 200
+2025-11-02 17:33:49,336 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Params: None | Data: None
+2025-11-02 17:33:50,293 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Status: 200
+2025-11-02 17:33:50,293 | DEBUG | An error occurred during the request: 'str' object has no attribute 'json'
+2025-11-02 17:34:27,041 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Params: None | Data: None
+2025-11-02 17:34:28,082 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Status: 200
+2025-11-02 19:59:23,689 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/765?language=en | Params: None | Data: None
+2025-11-02 19:59:24,560 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/765?language=en | Status: 200
+2025-11-02 19:59:38,904 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/765?language=en | Params: None | Data: None
+2025-11-02 19:59:39,715 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/765?language=en | Status: 200
+2025-11-02 20:00:46,423 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/765?language=en | Params: None | Data: None
+2025-11-02 20:00:52,522 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/765?language=en | Status: 200
+2025-11-02 20:27:47,318 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/45247 | Params: None | Data: None
+2025-11-02 20:27:48,407 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/45247 | Status: 200
+2025-11-02 20:30:31,856 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/provider/v4/search/filtered?accountPolicyNumber=&center=-84.652124,39.186931&configuration=uhc.exchange&distanceMiles=100&from=0&includeAggregations=true&includeBehavioralCarePaths=true&includeBillingCodeCarePaths=true&includeOutOfNetwork=false&isEapFilterSuppressed=false&isMedicalVirtualCareSuppressed=false&isTelementalHealthSuppressed=false&nptV21Enabled=true&planTierLevel=standard&planVariation=&planYear=2026&products.medical=923:923&products.medical=923:923&searchType=areaOfExpertise,facilityServiceCode,person,place,specialtyCategory,hcbsService,hcbsWaiver,specialty,medicalGroup,commonCondition,providerWithoutLocationGroup,carePath,billingCode,dynamicNationalProvider&selectedLang=en&sort=score&splitAnpReferralTypes=true&state=OH&suppressCostEfficiencySort=false&suppressType=virtualVisit&term=1083020564&timeZone=Asia%2FKatmandu&userNetworkId=923&zipCode=45247 | Params: None | Data: None
+2025-11-02 20:36:16,686 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/provider/v4/search/filtered?accountPolicyNumber=&center=-84.652124,39.186931&configuration=uhc.exchange&distanceMiles=100&from=0&includeAggregations=true&includeBehavioralCarePaths=true&includeBillingCodeCarePaths=true&includeOutOfNetwork=false&isEapFilterSuppressed=false&isMedicalVirtualCareSuppressed=false&isTelementalHealthSuppressed=false&nptV21Enabled=true&planTierLevel=standard&planVariation=&planYear=2026&products.medical=923:923&products.medical=923:923&searchType=areaOfExpertise,facilityServiceCode,person,place,specialtyCategory,hcbsService,hcbsWaiver,specialty,medicalGroup,commonCondition,providerWithoutLocationGroup,carePath,billingCode,dynamicNationalProvider&selectedLang=en&sort=score&splitAnpReferralTypes=true&state=OH&suppressCostEfficiencySort=false&suppressType=virtualVisit&term=1083020564&timeZone=Asia%2FKatmandu&userNetworkId=923&zipCode=45247 | Params: None | Data: None
+2025-11-02 20:36:17,339 | DEBUG | [Success] GET https://connect.werally.com/rest/provider/v4/search/filtered?accountPolicyNumber=&center=-84.652124,39.186931&configuration=uhc.exchange&distanceMiles=100&from=0&includeAggregations=true&includeBehavioralCarePaths=true&includeBillingCodeCarePaths=true&includeOutOfNetwork=false&isEapFilterSuppressed=false&isMedicalVirtualCareSuppressed=false&isTelementalHealthSuppressed=false&nptV21Enabled=true&planTierLevel=standard&planVariation=&planYear=2026&products.medical=923:923&products.medical=923:923&searchType=areaOfExpertise,facilityServiceCode,person,place,specialtyCategory,hcbsService,hcbsWaiver,specialty,medicalGroup,commonCondition,providerWithoutLocationGroup,carePath,billingCode,dynamicNationalProvider&selectedLang=en&sort=score&splitAnpReferralTypes=true&state=OH&suppressCostEfficiencySort=false&suppressType=virtualVisit&term=1083020564&timeZone=Asia%2FKatmandu&userNetworkId=923&zipCode=45247 | Status: 200
+2025-11-02 20:51:12,370 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/provider/v4/search/filtered?accountPolicyNumber=&center=-84.652124,39.186931&configuration=uhc.exchange&distanceMiles=100&from=0&includeAggregations=true&includeBehavioralCarePaths=true&includeBillingCodeCarePaths=true&includeOutOfNetwork=false&isEapFilterSuppressed=false&isMedicalVirtualCareSuppressed=false&isTelementalHealthSuppressed=false&nptV21Enabled=true&planTierLevel=standard&planVariation=&planYear=2026&products.medical=923:923&products.medical=923:923&searchType=areaOfExpertise,facilityServiceCode,person,place,specialtyCategory,hcbsService,hcbsWaiver,specialty,medicalGroup,commonCondition,providerWithoutLocationGroup,carePath,billingCode,dynamicNationalProvider&selectedLang=en&sort=score&splitAnpReferralTypes=true&state=OH&suppressCostEfficiencySort=false&suppressType=virtualVisit&term=1083020564&timeZone=Asia%2FKatmandu&userNetworkId=923&zipCode=45247 | Params: None | Data: None
+2025-11-03 00:09:17,988 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/45247 | Params: None | Data: None
+2025-11-03 00:09:19,464 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/45247 | Status: 200
+2025-11-03 00:09:50,688 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/45247 | Params: None | Data: None
+2025-11-03 00:09:51,525 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/45247 | Status: 200
+2025-11-03 00:22:38,037 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Params: None | Data: None
+2025-11-03 00:22:38,828 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Status: 200
+2025-11-03 00:22:38,829 | DEBUG | An error occurred during the request: [Errno 2] No such file or directory: 'output/state_data.json'
+2025-11-03 00:24:06,449 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Params: None | Data: None
+2025-11-03 00:24:07,221 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Status: 200
+2025-11-03 00:31:13,178 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Params: None | Data: None
+2025-11-03 00:31:14,007 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Status: 200
+2025-11-03 00:32:02,232 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Params: None | Data: None
+2025-11-03 00:32:03,054 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/4?language=en | Status: 200
+2025-11-03 01:51:41,033 | INFO | Searching Available Plans For State: NC
+2025-11-03 01:51:41,034 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 01:51:41,791 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 01:52:49,974 | INFO | Searching Available Plans For State: NC
+2025-11-03 01:52:49,975 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 01:52:50,810 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 03:16:27,330 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 03:16:28,132 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 03:16:28,133 | DEBUG | An error occurred during the request: string indices must be integers, not 'str'
+2025-11-03 03:16:28,133 | INFO | Searching Available Plans For State: NC
+2025-11-03 03:16:28,135 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 03:16:28,844 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 03:18:09,742 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 03:18:10,531 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 03:18:10,531 | DEBUG | An error occurred during the request: string indices must be integers, not 'str'
+2025-11-03 03:18:10,532 | INFO | Searching Available Plans For State: NC
+2025-11-03 03:18:10,533 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 03:18:11,228 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 03:18:39,499 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 03:18:40,330 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 03:18:40,331 | DEBUG | An error occurred during the request: string indices must be integers, not 'str'
+2025-11-03 03:18:40,331 | INFO | Searching Available Plans For State: NC
+2025-11-03 03:18:40,334 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 03:18:41,048 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 03:19:00,935 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 03:19:01,732 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 03:19:01,733 | DEBUG | An error occurred during the request: string indices must be integers, not 'str'
+2025-11-03 03:19:01,733 | INFO | Searching Available Plans For State: NC
+2025-11-03 03:19:01,736 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 03:19:02,140 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 03:19:41,559 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 03:19:42,385 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 03:19:42,386 | DEBUG | An error occurred during the request: string indices must be integers, not 'str'
+2025-11-03 03:19:42,386 | INFO | Searching Available Plans For State: NC
+2025-11-03 03:19:42,389 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 03:19:42,795 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 03:20:33,280 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 03:20:34,098 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 03:20:34,099 | DEBUG | An error occurred during the request: string indices must be integers, not 'str'
+2025-11-03 03:20:34,099 | INFO | Searching Available Plans For State: NC
+2025-11-03 03:20:34,101 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 03:20:34,814 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 03:21:14,437 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 03:21:15,263 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 03:21:15,264 | DEBUG | An error occurred during the request: string indices must be integers, not 'str'
+2025-11-03 03:21:15,264 | INFO | Searching Available Plans For State: NC
+2025-11-03 03:21:15,266 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 03:21:15,957 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 03:21:15,958 | CRITICAL | No Provider found for zip: 27560 | Search Term: 1215371612
+2025-11-03 03:21:15,961 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27103 | Params: None | Data: None
+2025-11-03 03:21:16,345 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27103 | Status: 200
+2025-11-03 03:21:16,346 | DEBUG | An error occurred during the request: string indices must be integers, not 'str'
+2025-11-03 03:21:16,346 | INFO | Searching Available Plans For State: NC
+2025-11-03 03:21:16,348 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 03:21:16,696 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 03:21:16,697 | CRITICAL | No Provider found for zip: 27103 | Search Term: 1376593061
+2025-11-03 03:21:16,699 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/70068 | Params: None | Data: None
+2025-11-03 03:21:17,106 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/70068 | Status: 200
+2025-11-03 03:21:17,107 | DEBUG | An error occurred during the request: string indices must be integers, not 'str'
+2025-11-03 03:21:17,107 | INFO | Searching Available Plans For State: LA
+2025-11-03 03:21:17,119 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/369?language=en | Params: None | Data: None
+2025-11-03 03:21:17,517 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/369?language=en | Status: 200
+2025-11-03 03:21:17,518 | CRITICAL | No Provider found for zip: 70068 | Search Term: 1619079647
+2025-11-03 03:21:17,520 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/11021 | Params: None | Data: None
+2025-11-03 03:21:17,927 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/11021 | Status: 200
+2025-11-03 03:21:17,928 | DEBUG | An error occurred during the request: string indices must be integers, not 'str'
+2025-11-03 03:21:17,928 | INFO | Searching Available Plans For State: NY
+2025-11-03 03:21:17,930 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/69?language=en | Params: None | Data: None
+2025-11-03 03:21:18,336 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/69?language=en | Status: 200
+2025-11-03 03:21:18,337 | CRITICAL | No Provider found for zip: 11021 | Search Term: 1508860065
+2025-11-03 03:21:18,339 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/45247 | Params: None | Data: None
+2025-11-03 03:21:18,745 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/45247 | Status: 200
+2025-11-03 03:21:18,746 | DEBUG | An error occurred during the request: string indices must be integers, not 'str'
+2025-11-03 03:21:18,746 | INFO | Searching Available Plans For State: OH
+2025-11-03 03:21:18,746 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/765?language=en | Params: None | Data: None
+2025-11-03 03:21:19,155 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/765?language=en | Status: 200
+2025-11-03 03:21:19,156 | CRITICAL | No Provider found for zip: 45247 | Search Term: 1083020564
+2025-11-03 03:22:17,983 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 03:22:18,752 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 03:22:18,753 | DEBUG | An error occurred during the request: string indices must be integers, not 'str'
+2025-11-03 03:22:18,753 | INFO | Searching Available Plans For State: NC
+2025-11-03 03:22:18,755 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 03:22:19,568 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 03:22:19,569 | CRITICAL | No Provider found for zip: 27560 | Search Term: 1215371612
+2025-11-03 03:22:19,570 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27103 | Params: None | Data: None
+2025-11-03 03:22:19,979 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27103 | Status: 200
+2025-11-03 03:22:19,980 | DEBUG | An error occurred during the request: string indices must be integers, not 'str'
+2025-11-03 03:22:19,980 | INFO | Searching Available Plans For State: NC
+2025-11-03 03:22:19,983 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 03:22:20,678 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 03:22:20,679 | CRITICAL | No Provider found for zip: 27103 | Search Term: 1376593061
+2025-11-03 03:22:20,681 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/70068 | Params: None | Data: None
+2025-11-03 03:22:21,011 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/70068 | Status: 200
+2025-11-03 03:22:21,012 | DEBUG | An error occurred during the request: string indices must be integers, not 'str'
+2025-11-03 03:22:21,012 | INFO | Searching Available Plans For State: LA
+2025-11-03 03:22:21,023 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/369?language=en | Params: None | Data: None
+2025-11-03 03:22:21,352 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/369?language=en | Status: 200
+2025-11-03 03:22:21,354 | CRITICAL | No Provider found for zip: 70068 | Search Term: 1619079647
+2025-11-03 03:22:21,356 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/11021 | Params: None | Data: None
+2025-11-03 03:22:21,721 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/11021 | Status: 200
+2025-11-03 03:22:21,721 | DEBUG | An error occurred during the request: string indices must be integers, not 'str'
+2025-11-03 03:22:21,722 | INFO | Searching Available Plans For State: NY
+2025-11-03 03:22:21,723 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/69?language=en | Params: None | Data: None
+2025-11-03 03:22:22,131 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/69?language=en | Status: 200
+2025-11-03 03:22:22,132 | CRITICAL | No Provider found for zip: 11021 | Search Term: 1508860065
+2025-11-03 03:22:22,134 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/45247 | Params: None | Data: None
+2025-11-03 03:22:22,539 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/45247 | Status: 200
+2025-11-03 03:22:22,540 | DEBUG | An error occurred during the request: string indices must be integers, not 'str'
+2025-11-03 03:22:22,540 | INFO | Searching Available Plans For State: OH
+2025-11-03 03:22:22,542 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/765?language=en | Params: None | Data: None
+2025-11-03 03:22:22,950 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/765?language=en | Status: 200
+2025-11-03 03:22:22,951 | CRITICAL | No Provider found for zip: 45247 | Search Term: 1083020564
+2025-11-03 03:26:43,955 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 03:26:44,789 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 03:26:44,790 | DEBUG | An error occurred during the request: string indices must be integers, not 'str'
+2025-11-03 03:26:44,790 | INFO | Searching Available Plans For State: NC
+2025-11-03 03:26:44,792 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 03:26:45,198 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 03:26:45,199 | INFO | Processing To Search For Zip: 27560 | Plan Code: 901 | Search Term: 1215371612
+2025-11-03 03:29:27,669 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 03:29:28,526 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 03:29:28,526 | DEBUG | An error occurred during the request: string indices must be integers, not 'str'
+2025-11-03 03:29:28,526 | INFO | Searching Available Plans For State: NC
+2025-11-03 03:29:28,527 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 03:29:28,936 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 03:29:28,936 | INFO | Processing To Search For Zip: 27560 | Plan Code: 901 | Search Term: 1215371612
+2025-11-03 03:43:45,963 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 03:43:46,750 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 03:43:46,750 | DEBUG | An error occurred during the request: string indices must be integers, not 'str'
+2025-11-03 03:43:46,751 | INFO | Searching Available Plans For State: NC
+2025-11-03 03:43:46,753 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 03:43:47,451 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 03:43:47,452 | INFO | Processing To Search For Zip: 27560 | Plan Code: 901 | Search Term: 1215371612
+2025-11-03 03:46:17,413 | INFO | Getting Coordinate For Zip: 27560
+2025-11-03 03:46:17,414 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 03:46:18,200 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 03:46:18,201 | INFO | Searching Available Plans For State: NC
+2025-11-03 03:46:18,203 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 03:46:18,917 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 03:46:18,919 | INFO | Processing To Search For Zip: 27560 | Plan Code: 901 | Search Term: 1215371612
+2025-11-03 03:46:50,027 | INFO | Getting Coordinate For Zip: 27560
+2025-11-03 03:46:50,028 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 03:46:50,864 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 03:46:50,865 | INFO | Searching Available Plans For State: NC
+2025-11-03 03:46:50,865 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 03:46:51,274 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 03:46:51,276 | INFO | Processing To Search For Zip: 27560 | Plan Code: 901 | Search Term: 1215371612
+2025-11-03 03:46:51,278 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/provider/v4/search/filtered | Params: {'accountPolicyNumber': '', 'autoIncreaseDistance': 'true', 'center': '-78.8466, 35.8344', 'configuration': 'uhc.exchange', 'distanceMiles': 20, 'from': 0, 'includeAggregations': 'true', 'includeBehavioralCarePaths': 'true', 'includeBillingCodeCarePaths': 'true', 'includeOutOfNetwork': 'false', 'isEapFilterSuppressed': 'false', 'isMedicalVirtualCareSuppressed': 'false', 'isTelementalHealthSuppressed': 'false', 'nptV21Enabled': 'true', 'planTierLevel': 'standard', 'planVariation': '', 'planYear': '2026', 'products.medical': '901:901', 'searchType': 'areaOfExpertise,facilityServiceCode,person,place,specialtyCategory,hcbsService,hcbsWaiver,specialty,medicalGroup,commonCondition,providerWithoutLocationGroup,carePath,billingCode,dynamicNationalProvider', 'selectedLang': 'en', 'sort': 'score', 'splitAnpReferralTypes': 'true', 'state': 'NC', 'suppressCostEfficiencySort': 'false', 'suppressType': 'virtualVisit', 'term': '1215371612', 'timeZone': 'America/Los_Angeles', 'zipCode': '27560', 'userNetworkId': '901'} | Data: None
+2025-11-03 03:46:52,094 | DEBUG | [Success] GET https://connect.werally.com/rest/provider/v4/search/filtered | Status: 200
+2025-11-03 03:46:52,096 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/place/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=Pacific/Honolulu&userNetworkId=901&planCode=901 | Params: None | Data: None
+2025-11-03 03:46:52,811 | DEBUG | An error occurred during the request: Client error '404 Not Found' for url 'https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/place/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=Pacific/Honolulu&userNetworkId=901&planCode=901'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-11-03 03:48:46,711 | INFO | Getting Coordinate For Zip: 27560
+2025-11-03 03:48:46,712 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 03:48:47,498 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 03:48:47,498 | INFO | Searching Available Plans For State: NC
+2025-11-03 03:48:47,499 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 03:48:48,215 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 03:48:48,215 | INFO | Processing To Search For Zip: 27560 | Plan Code: 901 | Search Term: 1215371612
+2025-11-03 03:48:48,216 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/provider/v4/search/filtered | Params: {'accountPolicyNumber': '', 'autoIncreaseDistance': 'true', 'center': '-78.8466,35.8344', 'configuration': 'uhc.exchange', 'distanceMiles': 20, 'from': 0, 'includeAggregations': 'true', 'includeBehavioralCarePaths': 'true', 'includeBillingCodeCarePaths': 'true', 'includeOutOfNetwork': 'false', 'isEapFilterSuppressed': 'false', 'isMedicalVirtualCareSuppressed': 'false', 'isTelementalHealthSuppressed': 'false', 'nptV21Enabled': 'true', 'planTierLevel': 'standard', 'planVariation': '', 'planYear': '2026', 'products.medical': '901:901', 'searchType': 'areaOfExpertise,facilityServiceCode,person,place,specialtyCategory,hcbsService,hcbsWaiver,specialty,medicalGroup,commonCondition,providerWithoutLocationGroup,carePath,billingCode,dynamicNationalProvider', 'selectedLang': 'en', 'sort': 'score', 'splitAnpReferralTypes': 'true', 'state': 'NC', 'suppressCostEfficiencySort': 'false', 'suppressType': 'virtualVisit', 'term': '1215371612', 'timeZone': 'Pacific/Honolulu', 'zipCode': '27560', 'userNetworkId': '901'} | Data: None
+2025-11-03 03:48:48,652 | DEBUG | [Success] GET https://connect.werally.com/rest/provider/v4/search/filtered | Status: 200
+2025-11-03 03:48:48,655 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/place/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=Pacific/Honolulu&userNetworkId=901&planCode=901 | Params: None | Data: None
+2025-11-03 03:48:49,035 | DEBUG | An error occurred during the request: Client error '404 Not Found' for url 'https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/place/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=Pacific/Honolulu&userNetworkId=901&planCode=901'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-11-03 03:52:08,792 | INFO | Getting Coordinate For Zip: 27560
+2025-11-03 03:52:08,793 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 03:52:09,638 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 03:52:09,639 | INFO | Searching Available Plans For State: NC
+2025-11-03 03:52:09,642 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 03:52:10,456 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 03:52:10,456 | INFO | Processing To Search For Zip: 27560 | Plan Code: 901 | Search Term: 1215371612
+2025-11-03 03:52:10,457 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/provider/v4/search/filtered | Params: {'accountPolicyNumber': '', 'autoIncreaseDistance': 'true', 'center': '-78.8466,35.8344', 'configuration': 'uhc.exchange', 'distanceMiles': 20, 'from': 0, 'includeAggregations': 'true', 'includeBehavioralCarePaths': 'true', 'includeBillingCodeCarePaths': 'true', 'includeOutOfNetwork': 'false', 'isEapFilterSuppressed': 'false', 'isMedicalVirtualCareSuppressed': 'false', 'isTelementalHealthSuppressed': 'false', 'nptV21Enabled': 'true', 'planTierLevel': 'standard', 'planVariation': '', 'planYear': '2026', 'products.medical': '901:901', 'searchType': 'areaOfExpertise,facilityServiceCode,person,place,specialtyCategory,hcbsService,hcbsWaiver,specialty,medicalGroup,commonCondition,providerWithoutLocationGroup,carePath,billingCode,dynamicNationalProvider', 'selectedLang': 'en', 'sort': 'score', 'splitAnpReferralTypes': 'true', 'state': 'NC', 'suppressCostEfficiencySort': 'false', 'suppressType': 'virtualVisit', 'term': '1215371612', 'timeZone': 'America/Juneau', 'zipCode': '27560', 'userNetworkId': '901'} | Data: None
+2025-11-03 03:52:11,258 | DEBUG | [Success] GET https://connect.werally.com/rest/provider/v4/search/filtered | Status: 200
+2025-11-03 03:52:11,261 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/place/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America/Anchorage&userNetworkId=901&planCode=901 | Params: None | Data: None
+2025-11-03 03:52:11,610 | DEBUG | An error occurred during the request: Client error '404 Not Found' for url 'https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/place/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America/Anchorage&userNetworkId=901&planCode=901'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-11-03 03:58:08,835 | INFO | Getting Coordinate For Zip: 27560
+2025-11-03 03:58:08,836 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 03:58:09,680 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 03:58:09,681 | INFO | Searching Available Plans For State: NC
+2025-11-03 03:58:09,684 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 03:58:10,089 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 03:58:10,090 | INFO | Processing To Search For Zip: 27560 | Plan Code: 901 | Search Term: 1215371612
+2025-11-03 03:58:10,092 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/provider/v4/search/filtered | Params: {'accountPolicyNumber': '', 'autoIncreaseDistance': 'true', 'center': '-78.8466,35.8344', 'configuration': 'uhc.exchange', 'distanceMiles': 20, 'from': 0, 'includeAggregations': 'true', 'includeBehavioralCarePaths': 'true', 'includeBillingCodeCarePaths': 'true', 'includeOutOfNetwork': 'false', 'isEapFilterSuppressed': 'false', 'isMedicalVirtualCareSuppressed': 'false', 'isTelementalHealthSuppressed': 'false', 'nptV21Enabled': 'true', 'planTierLevel': 'standard', 'planVariation': '', 'planYear': '2026', 'products.medical': '901:901', 'searchType': 'areaOfExpertise,facilityServiceCode,person,place,specialtyCategory,hcbsService,hcbsWaiver,specialty,medicalGroup,commonCondition,providerWithoutLocationGroup,carePath,billingCode,dynamicNationalProvider', 'selectedLang': 'en', 'sort': 'score', 'splitAnpReferralTypes': 'true', 'state': 'NC', 'suppressCostEfficiencySort': 'false', 'suppressType': 'virtualVisit', 'term': '1215371612', 'timeZone': 'Pacific/Honolulu', 'zipCode': '27560', 'userNetworkId': '901'} | Data: None
+2025-11-03 03:58:10,601 | DEBUG | [Success] GET https://connect.werally.com/rest/provider/v4/search/filtered | Status: 200
+2025-11-03 03:58:10,603 | DEBUG | [Attempt 1] POST https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/place/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America/Anchorage&userNetworkId=901&planCode=901 | Params: None | Data: ['901']
+2025-11-03 03:58:11,009 | DEBUG | An error occurred during the request: Client error '404 Not Found' for url 'https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/place/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America/Anchorage&userNetworkId=901&planCode=901'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-11-03 03:59:10,550 | INFO | Getting Coordinate For Zip: 27560
+2025-11-03 03:59:10,551 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 03:59:11,294 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 03:59:11,295 | INFO | Searching Available Plans For State: NC
+2025-11-03 03:59:11,298 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 03:59:12,040 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 03:59:12,042 | INFO | Processing To Search For Zip: 27560 | Plan Code: 901 | Search Term: 1215371612
+2025-11-03 03:59:12,044 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/provider/v4/search/filtered | Params: {'accountPolicyNumber': '', 'autoIncreaseDistance': 'true', 'center': '-78.8466,35.8344', 'configuration': 'uhc.exchange', 'distanceMiles': 20, 'from': 0, 'includeAggregations': 'true', 'includeBehavioralCarePaths': 'true', 'includeBillingCodeCarePaths': 'true', 'includeOutOfNetwork': 'false', 'isEapFilterSuppressed': 'false', 'isMedicalVirtualCareSuppressed': 'false', 'isTelementalHealthSuppressed': 'false', 'nptV21Enabled': 'true', 'planTierLevel': 'standard', 'planVariation': '', 'planYear': '2026', 'products.medical': '901:901', 'searchType': 'areaOfExpertise,facilityServiceCode,person,place,specialtyCategory,hcbsService,hcbsWaiver,specialty,medicalGroup,commonCondition,providerWithoutLocationGroup,carePath,billingCode,dynamicNationalProvider', 'selectedLang': 'en', 'sort': 'score', 'splitAnpReferralTypes': 'true', 'state': 'NC', 'suppressCostEfficiencySort': 'false', 'suppressType': 'virtualVisit', 'term': '1215371612', 'timeZone': 'America%2FLos_Angeles', 'zipCode': '27560', 'userNetworkId': '901'} | Data: None
+2025-11-03 03:59:12,553 | DEBUG | [Success] GET https://connect.werally.com/rest/provider/v4/search/filtered | Status: 200
+2025-11-03 03:59:12,556 | DEBUG | [Attempt 1] POST https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/place/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America%2FDenver&userNetworkId=901&planCode=901 | Params: None | Data: ['901']
+2025-11-03 03:59:12,963 | DEBUG | An error occurred during the request: Client error '404 Not Found' for url 'https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/place/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America%2FDenver&userNetworkId=901&planCode=901'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-11-03 04:07:02,404 | INFO | Getting Coordinate For Zip: 27560
+2025-11-03 04:07:02,405 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 04:07:03,184 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 04:07:03,185 | INFO | Searching Available Plans For State: NC
+2025-11-03 04:07:03,187 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 04:07:03,594 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 04:07:03,595 | INFO | Processing To Search For Zip: 27560 | Plan Code: 901 | Search Term: 1215371612
+2025-11-03 04:07:03,597 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/provider/v4/search/filtered | Params: {'accountPolicyNumber': '', 'autoIncreaseDistance': 'true', 'center': '-78.8466,35.8344', 'configuration': 'uhc.exchange', 'distanceMiles': 20, 'from': 0, 'includeAggregations': 'true', 'includeBehavioralCarePaths': 'true', 'includeBillingCodeCarePaths': 'true', 'includeOutOfNetwork': 'false', 'isEapFilterSuppressed': 'false', 'isMedicalVirtualCareSuppressed': 'false', 'isTelementalHealthSuppressed': 'false', 'nptV21Enabled': 'true', 'planTierLevel': 'standard', 'planVariation': '', 'planYear': '2026', 'products.medical': '901:901', 'searchType': 'areaOfExpertise,facilityServiceCode,person,place,specialtyCategory,hcbsService,hcbsWaiver,specialty,medicalGroup,commonCondition,providerWithoutLocationGroup,carePath,billingCode,dynamicNationalProvider', 'selectedLang': 'en', 'sort': 'score', 'splitAnpReferralTypes': 'true', 'state': 'NC', 'suppressCostEfficiencySort': 'false', 'suppressType': 'virtualVisit', 'term': '1215371612', 'timeZone': 'America%2FJuneau', 'zipCode': '27560', 'userNetworkId': '901'} | Data: None
+2025-11-03 04:07:04,515 | DEBUG | [Success] GET https://connect.werally.com/rest/provider/v4/search/filtered | Status: 200
+2025-11-03 04:07:04,518 | DEBUG | [Attempt 1] POST https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/place/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=Pacific%2FHonolulu&userNetworkId=901&planCode=901 | Params: None | Data: ['901']
+2025-11-03 04:07:04,924 | DEBUG | An error occurred during the request: Client error '404 Not Found' for url 'https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/place/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=Pacific%2FHonolulu&userNetworkId=901&planCode=901'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-11-03 04:12:03,143 | INFO | Getting Coordinate For Zip: 27560
+2025-11-03 04:12:03,144 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 04:12:03,935 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 04:12:03,935 | INFO | Searching Available Plans For State: NC
+2025-11-03 04:12:03,936 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 04:12:04,346 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 04:12:04,347 | INFO | Processing To Search For Zip: 27560 | Plan Code: 901 | Search Term: 1215371612
+2025-11-03 04:12:04,350 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/provider/v4/search/filtered | Params: {'accountPolicyNumber': '', 'autoIncreaseDistance': 'true', 'center': '-78.8466,35.8344', 'configuration': 'uhc.exchange', 'distanceMiles': 20, 'from': 0, 'includeAggregations': 'true', 'includeBehavioralCarePaths': 'true', 'includeBillingCodeCarePaths': 'true', 'includeOutOfNetwork': 'false', 'isEapFilterSuppressed': 'false', 'isMedicalVirtualCareSuppressed': 'false', 'isTelementalHealthSuppressed': 'false', 'nptV21Enabled': 'true', 'planTierLevel': 'standard', 'planVariation': '', 'planYear': '2026', 'products.medical': '901:901', 'searchType': 'areaOfExpertise,facilityServiceCode,person,place,specialtyCategory,hcbsService,hcbsWaiver,specialty,medicalGroup,commonCondition,providerWithoutLocationGroup,carePath,billingCode,dynamicNationalProvider', 'selectedLang': 'en', 'sort': 'score', 'splitAnpReferralTypes': 'true', 'state': 'NC', 'suppressCostEfficiencySort': 'false', 'suppressType': 'virtualVisit', 'term': '1215371612', 'timeZone': 'America%2FAnchorage', 'zipCode': '27560', 'userNetworkId': '901'} | Data: None
+2025-11-03 04:12:05,165 | DEBUG | [Success] GET https://connect.werally.com/rest/provider/v4/search/filtered | Status: 200
+2025-11-03 04:12:05,168 | DEBUG | [Attempt 1] POST https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/place/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America%2FJuneau&userNetworkId=901&planCode=901 | Params: None | Data: ["901"]
+2025-11-03 04:12:05,539 | DEBUG | An error occurred during the request: Client error '400 Bad Request' for url 'https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/place/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America%2FJuneau&userNetworkId=901&planCode=901'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-11-03 04:12:53,197 | INFO | Getting Coordinate For Zip: 27560
+2025-11-03 04:12:53,198 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 04:12:54,010 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 04:12:54,011 | INFO | Searching Available Plans For State: NC
+2025-11-03 04:12:54,013 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 04:12:54,829 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 04:12:54,831 | INFO | Processing To Search For Zip: 27560 | Plan Code: 901 | Search Term: 1215371612
+2025-11-03 04:12:54,833 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/provider/v4/search/filtered | Params: {'accountPolicyNumber': '', 'autoIncreaseDistance': 'true', 'center': '-78.8466,35.8344', 'configuration': 'uhc.exchange', 'distanceMiles': 20, 'from': 0, 'includeAggregations': 'true', 'includeBehavioralCarePaths': 'true', 'includeBillingCodeCarePaths': 'true', 'includeOutOfNetwork': 'false', 'isEapFilterSuppressed': 'false', 'isMedicalVirtualCareSuppressed': 'false', 'isTelementalHealthSuppressed': 'false', 'nptV21Enabled': 'true', 'planTierLevel': 'standard', 'planVariation': '', 'planYear': '2026', 'products.medical': '901:901', 'searchType': 'areaOfExpertise,facilityServiceCode,person,place,specialtyCategory,hcbsService,hcbsWaiver,specialty,medicalGroup,commonCondition,providerWithoutLocationGroup,carePath,billingCode,dynamicNationalProvider', 'selectedLang': 'en', 'sort': 'score', 'splitAnpReferralTypes': 'true', 'state': 'NC', 'suppressCostEfficiencySort': 'false', 'suppressType': 'virtualVisit', 'term': '1215371612', 'timeZone': 'America%2FPhoenix', 'zipCode': '27560', 'userNetworkId': '901'} | Data: None
+2025-11-03 04:12:55,342 | DEBUG | [Success] GET https://connect.werally.com/rest/provider/v4/search/filtered | Status: 200
+2025-11-03 04:12:55,345 | DEBUG | [Attempt 1] POST https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/place/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America%2FChicago&userNetworkId=901&planCode=901 | Params: None | Data: None
+2025-11-03 04:12:55,345 | DEBUG | An error occurred during the request: request() got an unexpected keyword argument 'body'
+2025-11-03 04:13:28,865 | INFO | Getting Coordinate For Zip: 27560
+2025-11-03 04:13:28,866 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 04:13:29,642 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 04:13:29,642 | INFO | Searching Available Plans For State: NC
+2025-11-03 04:13:29,643 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 04:13:30,054 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 04:13:30,054 | INFO | Processing To Search For Zip: 27560 | Plan Code: 901 | Search Term: 1215371612
+2025-11-03 04:13:30,055 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/provider/v4/search/filtered | Params: {'accountPolicyNumber': '', 'autoIncreaseDistance': 'true', 'center': '-78.8466,35.8344', 'configuration': 'uhc.exchange', 'distanceMiles': 20, 'from': 0, 'includeAggregations': 'true', 'includeBehavioralCarePaths': 'true', 'includeBillingCodeCarePaths': 'true', 'includeOutOfNetwork': 'false', 'isEapFilterSuppressed': 'false', 'isMedicalVirtualCareSuppressed': 'false', 'isTelementalHealthSuppressed': 'false', 'nptV21Enabled': 'true', 'planTierLevel': 'standard', 'planVariation': '', 'planYear': '2026', 'products.medical': '901:901', 'searchType': 'areaOfExpertise,facilityServiceCode,person,place,specialtyCategory,hcbsService,hcbsWaiver,specialty,medicalGroup,commonCondition,providerWithoutLocationGroup,carePath,billingCode,dynamicNationalProvider', 'selectedLang': 'en', 'sort': 'score', 'splitAnpReferralTypes': 'true', 'state': 'NC', 'suppressCostEfficiencySort': 'false', 'suppressType': 'virtualVisit', 'term': '1215371612', 'timeZone': 'America%2FDenver', 'zipCode': '27560', 'userNetworkId': '901'} | Data: None
+2025-11-03 04:13:30,872 | DEBUG | [Success] GET https://connect.werally.com/rest/provider/v4/search/filtered | Status: 200
+2025-11-03 04:13:30,875 | DEBUG | [Attempt 1] POST https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/place/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America%2FAdak&userNetworkId=901&planCode=901 | Params: None | Data: None
+2025-11-03 04:13:31,231 | DEBUG | An error occurred during the request: Client error '415 Unsupported Media Type' for url 'https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/place/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America%2FAdak&userNetworkId=901&planCode=901'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/415
+2025-11-03 04:14:09,998 | INFO | Getting Coordinate For Zip: 27560
+2025-11-03 04:14:09,998 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 04:14:10,811 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 04:14:10,812 | INFO | Searching Available Plans For State: NC
+2025-11-03 04:14:10,813 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 04:14:11,526 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 04:14:11,528 | INFO | Processing To Search For Zip: 27560 | Plan Code: 901 | Search Term: 1215371612
+2025-11-03 04:14:11,530 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/provider/v4/search/filtered | Params: {'accountPolicyNumber': '', 'autoIncreaseDistance': 'true', 'center': '-78.8466,35.8344', 'configuration': 'uhc.exchange', 'distanceMiles': 20, 'from': 0, 'includeAggregations': 'true', 'includeBehavioralCarePaths': 'true', 'includeBillingCodeCarePaths': 'true', 'includeOutOfNetwork': 'false', 'isEapFilterSuppressed': 'false', 'isMedicalVirtualCareSuppressed': 'false', 'isTelementalHealthSuppressed': 'false', 'nptV21Enabled': 'true', 'planTierLevel': 'standard', 'planVariation': '', 'planYear': '2026', 'products.medical': '901:901', 'searchType': 'areaOfExpertise,facilityServiceCode,person,place,specialtyCategory,hcbsService,hcbsWaiver,specialty,medicalGroup,commonCondition,providerWithoutLocationGroup,carePath,billingCode,dynamicNationalProvider', 'selectedLang': 'en', 'sort': 'score', 'splitAnpReferralTypes': 'true', 'state': 'NC', 'suppressCostEfficiencySort': 'false', 'suppressType': 'virtualVisit', 'term': '1215371612', 'timeZone': 'America%2FPhoenix', 'zipCode': '27560', 'userNetworkId': '901'} | Data: None
+2025-11-03 04:14:12,348 | DEBUG | [Success] GET https://connect.werally.com/rest/provider/v4/search/filtered | Status: 200
+2025-11-03 04:14:12,351 | DEBUG | [Attempt 1] POST https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/place/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America%2FAdak&userNetworkId=901&planCode=901 | Params: None | Data: ['901']
+2025-11-03 04:14:12,754 | DEBUG | An error occurred during the request: Client error '404 Not Found' for url 'https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/place/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America%2FAdak&userNetworkId=901&planCode=901'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-11-03 04:17:34,338 | INFO | Getting Coordinate For Zip: 27560
+2025-11-03 04:17:34,339 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 04:17:35,201 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 04:17:35,202 | INFO | Searching Available Plans For State: NC
+2025-11-03 04:17:35,203 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 04:17:36,020 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 04:17:36,021 | INFO | Processing To Search For Zip: 27560 | Plan Code: 901 | Search Term: 1215371612
+2025-11-03 04:17:36,024 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/provider/v4/search/filtered | Params: {'accountPolicyNumber': '', 'autoIncreaseDistance': 'true', 'center': '-78.8466,35.8344', 'configuration': 'uhc.exchange', 'distanceMiles': 20, 'from': 0, 'includeAggregations': 'true', 'includeBehavioralCarePaths': 'true', 'includeBillingCodeCarePaths': 'true', 'includeOutOfNetwork': 'false', 'isEapFilterSuppressed': 'false', 'isMedicalVirtualCareSuppressed': 'false', 'isTelementalHealthSuppressed': 'false', 'nptV21Enabled': 'true', 'planTierLevel': 'standard', 'planVariation': '', 'planYear': '2026', 'products.medical': '901:901', 'searchType': 'areaOfExpertise,facilityServiceCode,person,place,specialtyCategory,hcbsService,hcbsWaiver,specialty,medicalGroup,commonCondition,providerWithoutLocationGroup,carePath,billingCode,dynamicNationalProvider', 'selectedLang': 'en', 'sort': 'score', 'splitAnpReferralTypes': 'true', 'state': 'NC', 'suppressCostEfficiencySort': 'false', 'suppressType': 'virtualVisit', 'term': '1215371612', 'timeZone': 'Pacific%2FHonolulu', 'zipCode': '27560', 'userNetworkId': '901'} | Data: None
+2025-11-03 04:17:36,816 | DEBUG | [Success] GET https://connect.werally.com/rest/provider/v4/search/filtered | Status: 200
+2025-11-03 04:17:36,818 | DEBUG | [Attempt 1] POST https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/place/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America%2FChicago&userNetworkId=901&planCode=901 | Params: None | Data: ['901']
+2025-11-03 04:17:37,248 | DEBUG | An error occurred during the request: Client error '404 Not Found' for url 'https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/place/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America%2FChicago&userNetworkId=901&planCode=901'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-11-03 04:22:31,841 | INFO | Getting Coordinate For Zip: 27560
+2025-11-03 04:22:31,841 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 04:22:32,676 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 04:22:32,677 | INFO | Searching Available Plans For State: NC
+2025-11-03 04:22:32,680 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 04:22:33,493 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 04:22:33,495 | INFO | Processing To Search For Zip: 27560 | Plan Code: 901 | Search Term: 1215371612
+2025-11-03 04:22:33,497 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/provider/v4/search/filtered | Params: {'accountPolicyNumber': '', 'autoIncreaseDistance': 'true', 'center': '-78.8466,35.8344', 'configuration': 'uhc.exchange', 'distanceMiles': 20, 'from': 0, 'includeAggregations': 'true', 'includeBehavioralCarePaths': 'true', 'includeBillingCodeCarePaths': 'true', 'includeOutOfNetwork': 'false', 'isEapFilterSuppressed': 'false', 'isMedicalVirtualCareSuppressed': 'false', 'isTelementalHealthSuppressed': 'false', 'nptV21Enabled': 'true', 'planTierLevel': 'standard', 'planVariation': '', 'planYear': '2026', 'products.medical': '901:901', 'searchType': 'areaOfExpertise,facilityServiceCode,person,place,specialtyCategory,hcbsService,hcbsWaiver,specialty,medicalGroup,commonCondition,providerWithoutLocationGroup,carePath,billingCode,dynamicNationalProvider', 'selectedLang': 'en', 'sort': 'score', 'splitAnpReferralTypes': 'true', 'state': 'NC', 'suppressCostEfficiencySort': 'false', 'suppressType': 'virtualVisit', 'term': '1215371612', 'timeZone': 'America%2FDenver', 'zipCode': '27560', 'userNetworkId': '901'} | Data: None
+2025-11-03 04:22:34,006 | DEBUG | [Success] GET https://connect.werally.com/rest/provider/v4/search/filtered | Status: 200
+2025-11-03 04:22:34,009 | DEBUG | [Attempt 1] POST https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/medicalGroup/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America%2FAnchorage&userNetworkId=901&planCode=901 | Params: None | Data: ['901']
+2025-11-03 04:22:34,413 | DEBUG | [Success] POST https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/medicalGroup/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America%2FAnchorage&userNetworkId=901&planCode=901 | Status: 200
+2025-11-03 04:23:19,195 | INFO | Getting Coordinate For Zip: 27560
+2025-11-03 04:23:19,196 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Params: None | Data: None
+2025-11-03 04:23:19,982 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27560 | Status: 200
+2025-11-03 04:23:19,983 | INFO | Searching Available Plans For State: NC
+2025-11-03 04:23:19,983 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 04:23:20,310 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 04:23:20,311 | INFO | Processing To Search For Zip: 27560 | Plan Code: 901 | Search Term: 1215371612
+2025-11-03 04:23:20,313 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/provider/v4/search/filtered | Params: {'accountPolicyNumber': '', 'autoIncreaseDistance': 'true', 'center': '-78.8466,35.8344', 'configuration': 'uhc.exchange', 'distanceMiles': 20, 'from': 0, 'includeAggregations': 'true', 'includeBehavioralCarePaths': 'true', 'includeBillingCodeCarePaths': 'true', 'includeOutOfNetwork': 'false', 'isEapFilterSuppressed': 'false', 'isMedicalVirtualCareSuppressed': 'false', 'isTelementalHealthSuppressed': 'false', 'nptV21Enabled': 'true', 'planTierLevel': 'standard', 'planVariation': '', 'planYear': '2026', 'products.medical': '901:901', 'searchType': 'areaOfExpertise,facilityServiceCode,person,place,specialtyCategory,hcbsService,hcbsWaiver,specialty,medicalGroup,commonCondition,providerWithoutLocationGroup,carePath,billingCode,dynamicNationalProvider', 'selectedLang': 'en', 'sort': 'score', 'splitAnpReferralTypes': 'true', 'state': 'NC', 'suppressCostEfficiencySort': 'false', 'suppressType': 'virtualVisit', 'term': '1215371612', 'timeZone': 'America%2FPhoenix', 'zipCode': '27560', 'userNetworkId': '901'} | Data: None
+2025-11-03 04:23:21,213 | DEBUG | [Success] GET https://connect.werally.com/rest/provider/v4/search/filtered | Status: 200
+2025-11-03 04:23:21,216 | DEBUG | [Attempt 1] POST https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/medicalGroup/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America%2FAdak&userNetworkId=901&planCode=901 | Params: None | Data: ['901']
+2025-11-03 04:23:21,621 | DEBUG | [Success] POST https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/medicalGroup/providers/7741647?coverageType=medical&limitLocations=50&lon=-78.85475&lat=35.8627&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America%2FAdak&userNetworkId=901&planCode=901 | Status: 200
+2025-11-03 04:23:21,624 | INFO | Getting Coordinate For Zip: 27103
+2025-11-03 04:23:21,626 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/27103 | Params: None | Data: None
+2025-11-03 04:23:22,443 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/27103 | Status: 200
+2025-11-03 04:23:22,444 | INFO | Searching Available Plans For State: NC
+2025-11-03 04:23:22,445 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Params: None | Data: None
+2025-11-03 04:23:22,845 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/359?language=en | Status: 200
+2025-11-03 04:23:22,847 | INFO | Processing To Search For Zip: 27103 | Plan Code: 901 | Search Term: 1376593061
+2025-11-03 04:23:22,848 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/provider/v4/search/filtered | Params: {'accountPolicyNumber': '', 'autoIncreaseDistance': 'true', 'center': '-80.3025,36.0671', 'configuration': 'uhc.exchange', 'distanceMiles': 20, 'from': 0, 'includeAggregations': 'true', 'includeBehavioralCarePaths': 'true', 'includeBillingCodeCarePaths': 'true', 'includeOutOfNetwork': 'false', 'isEapFilterSuppressed': 'false', 'isMedicalVirtualCareSuppressed': 'false', 'isTelementalHealthSuppressed': 'false', 'nptV21Enabled': 'true', 'planTierLevel': 'standard', 'planVariation': '', 'planYear': '2026', 'products.medical': '901:901', 'searchType': 'areaOfExpertise,facilityServiceCode,person,place,specialtyCategory,hcbsService,hcbsWaiver,specialty,medicalGroup,commonCondition,providerWithoutLocationGroup,carePath,billingCode,dynamicNationalProvider', 'selectedLang': 'en', 'sort': 'score', 'splitAnpReferralTypes': 'true', 'state': 'NC', 'suppressCostEfficiencySort': 'false', 'suppressType': 'virtualVisit', 'term': '1376593061', 'timeZone': 'Pacific%2FHonolulu', 'zipCode': '27103', 'userNetworkId': '901'} | Data: None
+2025-11-03 04:23:23,464 | DEBUG | [Success] GET https://connect.werally.com/rest/provider/v4/search/filtered | Status: 200
+2025-11-03 04:23:23,467 | DEBUG | [Attempt 1] POST https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/medicalGroup/providers/1997778?coverageType=medical&limitLocations=50&lon=-80.29317&lat=36.07821&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America%2FJuneau&userNetworkId=901&planCode=901 | Params: None | Data: ['901']
+2025-11-03 04:23:24,053 | DEBUG | [Success] POST https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/medicalGroup/providers/1997778?coverageType=medical&limitLocations=50&lon=-80.29317&lat=36.07821&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America%2FJuneau&userNetworkId=901&planCode=901 | Status: 200
+2025-11-03 04:23:24,056 | INFO | Getting Coordinate For Zip: 70068
+2025-11-03 04:23:24,058 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/70068 | Params: None | Data: None
+2025-11-03 04:23:24,468 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/70068 | Status: 200
+2025-11-03 04:23:24,469 | INFO | Searching Available Plans For State: LA
+2025-11-03 04:23:24,472 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/369?language=en | Params: None | Data: None
+2025-11-03 04:23:25,010 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/369?language=en | Status: 200
+2025-11-03 04:23:25,010 | INFO | Processing To Search For Zip: 70068 | Plan Code: 909 | Search Term: 1619079647
+2025-11-03 04:23:25,011 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/provider/v4/search/filtered | Params: {'accountPolicyNumber': '', 'autoIncreaseDistance': 'true', 'center': '-90.4895,30.0777', 'configuration': 'uhc.exchange', 'distanceMiles': 20, 'from': 0, 'includeAggregations': 'true', 'includeBehavioralCarePaths': 'true', 'includeBillingCodeCarePaths': 'true', 'includeOutOfNetwork': 'false', 'isEapFilterSuppressed': 'false', 'isMedicalVirtualCareSuppressed': 'false', 'isTelementalHealthSuppressed': 'false', 'nptV21Enabled': 'true', 'planTierLevel': 'standard', 'planVariation': '', 'planYear': '2026', 'products.medical': '909:909', 'searchType': 'areaOfExpertise,facilityServiceCode,person,place,specialtyCategory,hcbsService,hcbsWaiver,specialty,medicalGroup,commonCondition,providerWithoutLocationGroup,carePath,billingCode,dynamicNationalProvider', 'selectedLang': 'en', 'sort': 'score', 'splitAnpReferralTypes': 'true', 'state': 'LA', 'suppressCostEfficiencySort': 'false', 'suppressType': 'virtualVisit', 'term': '1619079647', 'timeZone': 'America%2FAdak', 'zipCode': '70068', 'userNetworkId': '909'} | Data: None
+2025-11-03 04:23:25,830 | DEBUG | [Success] GET https://connect.werally.com/rest/provider/v4/search/filtered | Status: 200
+2025-11-03 04:23:25,833 | DEBUG | [Attempt 1] POST https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/place/providers/2626379?coverageType=medical&limitLocations=50&lon=-90.52337&lat=30.07759&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America%2FLos_Angeles&userNetworkId=909&planCode=909 | Params: None | Data: ['909']
+2025-11-03 04:23:26,333 | DEBUG | [Success] POST https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/place/providers/2626379?coverageType=medical&limitLocations=50&lon=-90.52337&lat=30.07759&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America%2FLos_Angeles&userNetworkId=909&planCode=909 | Status: 200
+2025-11-03 04:23:26,336 | INFO | Getting Coordinate For Zip: 11021
+2025-11-03 04:23:26,338 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/11021 | Params: None | Data: None
+2025-11-03 04:23:26,853 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/11021 | Status: 200
+2025-11-03 04:23:26,853 | INFO | Searching Available Plans For State: NY
+2025-11-03 04:23:26,853 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/69?language=en | Params: None | Data: None
+2025-11-03 04:23:27,253 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/69?language=en | Status: 200
+2025-11-03 04:23:27,254 | INFO | Processing To Search For Zip: 11021 | Plan Code: 944 | Search Term: 1508860065
+2025-11-03 04:23:27,256 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/provider/v4/search/filtered | Params: {'accountPolicyNumber': '', 'autoIncreaseDistance': 'true', 'center': '-73.727,40.7867', 'configuration': 'uhc.exchange', 'distanceMiles': 20, 'from': 0, 'includeAggregations': 'true', 'includeBehavioralCarePaths': 'true', 'includeBillingCodeCarePaths': 'true', 'includeOutOfNetwork': 'false', 'isEapFilterSuppressed': 'false', 'isMedicalVirtualCareSuppressed': 'false', 'isTelementalHealthSuppressed': 'false', 'nptV21Enabled': 'true', 'planTierLevel': 'standard', 'planVariation': '', 'planYear': '2026', 'products.medical': '944:944', 'searchType': 'areaOfExpertise,facilityServiceCode,person,place,specialtyCategory,hcbsService,hcbsWaiver,specialty,medicalGroup,commonCondition,providerWithoutLocationGroup,carePath,billingCode,dynamicNationalProvider', 'selectedLang': 'en', 'sort': 'score', 'splitAnpReferralTypes': 'true', 'state': 'NY', 'suppressCostEfficiencySort': 'false', 'suppressType': 'virtualVisit', 'term': '1508860065', 'timeZone': 'America%2FLos_Angeles', 'zipCode': '11021', 'userNetworkId': '944'} | Data: None
+2025-11-03 04:23:27,765 | DEBUG | [Success] GET https://connect.werally.com/rest/provider/v4/search/filtered | Status: 200
+2025-11-03 04:23:27,767 | DEBUG | [Attempt 1] POST https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/person/providers/2502142?coverageType=medical&limitLocations=50&lon=-73.71676&lat=40.78182&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America%2FChicago&userNetworkId=944&planCode=944 | Params: None | Data: ['944']
+2025-11-03 04:23:28,175 | DEBUG | [Success] POST https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/person/providers/2502142?coverageType=medical&limitLocations=50&lon=-73.71676&lat=40.78182&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America%2FChicago&userNetworkId=944&planCode=944 | Status: 200
+2025-11-03 04:23:28,178 | INFO | Getting Coordinate For Zip: 45247
+2025-11-03 04:23:28,180 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/geolocation/v1/location/45247 | Params: None | Data: None
+2025-11-03 04:23:28,584 | DEBUG | [Success] GET https://connect.werally.com/rest/geolocation/v1/location/45247 | Status: 200
+2025-11-03 04:23:28,585 | INFO | Searching Available Plans For State: OH
+2025-11-03 04:23:28,587 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/765?language=en | Params: None | Data: None
+2025-11-03 04:23:28,994 | DEBUG | [Success] GET https://connect.werally.com/rest/guide/v1/guidedSearch/plan/765?language=en | Status: 200
+2025-11-03 04:23:28,995 | INFO | Processing To Search For Zip: 45247 | Plan Code: 923 | Search Term: 1083020564
+2025-11-03 04:23:28,996 | DEBUG | [Attempt 1] GET https://connect.werally.com/rest/provider/v4/search/filtered | Params: {'accountPolicyNumber': '', 'autoIncreaseDistance': 'true', 'center': '-84.6418,39.2208', 'configuration': 'uhc.exchange', 'distanceMiles': 20, 'from': 0, 'includeAggregations': 'true', 'includeBehavioralCarePaths': 'true', 'includeBillingCodeCarePaths': 'true', 'includeOutOfNetwork': 'false', 'isEapFilterSuppressed': 'false', 'isMedicalVirtualCareSuppressed': 'false', 'isTelementalHealthSuppressed': 'false', 'nptV21Enabled': 'true', 'planTierLevel': 'standard', 'planVariation': '', 'planYear': '2026', 'products.medical': '923:923', 'searchType': 'areaOfExpertise,facilityServiceCode,person,place,specialtyCategory,hcbsService,hcbsWaiver,specialty,medicalGroup,commonCondition,providerWithoutLocationGroup,carePath,billingCode,dynamicNationalProvider', 'selectedLang': 'en', 'sort': 'score', 'splitAnpReferralTypes': 'true', 'state': 'OH', 'suppressCostEfficiencySort': 'false', 'suppressType': 'virtualVisit', 'term': '1083020564', 'timeZone': 'America%2FChicago', 'zipCode': '45247', 'userNetworkId': '923'} | Data: None
+2025-11-03 04:23:29,506 | DEBUG | [Success] GET https://connect.werally.com/rest/provider/v4/search/filtered | Status: 200
+2025-11-03 04:23:29,509 | DEBUG | [Attempt 1] POST https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/person/providers/6476067?coverageType=medical&limitLocations=50&lon=-84.5550115053957&lat=39.33611329612224&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America%2FAnchorage&userNetworkId=923&planCode=923 | Params: None | Data: ['923']
+2025-11-03 04:23:29,917 | DEBUG | [Success] POST https://connect.werally.com/rest/provider/v3/partners/uhc.exchange/providerTypes/person/providers/6476067?coverageType=medical&limitLocations=50&lon=-84.5550115053957&lat=39.33611329612224&searchRadius=20&planYear=2026&accountPolicyNumber=&planVariation=&planTierLevel=standard&timeZone=America%2FAnchorage&userNetworkId=923&planCode=923 | Status: 200
