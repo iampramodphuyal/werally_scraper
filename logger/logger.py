@@ -3,9 +3,10 @@ import logging
 import sys
 from logging.handlers import RotatingFileHandler
 import os
+import datetime
 
 LOG_DIR = "logs"
-LOG_FILE = os.path.join(LOG_DIR, "scraper.log")
+LOG_FILE = os.path.join(LOG_DIR, f"scraper_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.log")
 os.makedirs(LOG_DIR, exist_ok=True)
 
 def get_logger(name: str = "scraper", level=logging.DEBUG) -> logging.Logger:
