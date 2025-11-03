@@ -1,8 +1,7 @@
 import gc
 import os
 import psutil
-from core.entrypoint import process_json_file
-# from core.entrypoint import request, get_coordinates, get_available_state_data
+from core.entrypoint import process_json_file, get_available_state_data
 from utils.utils import init_tmp_path
 from logger.logger import get_logger
 
@@ -28,6 +27,7 @@ if __name__ == "__main__":
     json_files = glob.glob(os.path.join(data_dir, "*.json"))
 
     init_tmp_path()
+    get_available_state_data()
 
     if not json_files:
         logger.info(f"No JSON files found in {data_dir}")

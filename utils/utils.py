@@ -20,6 +20,13 @@ def normalize_text(text: str) -> str:
     return re.sub(r'[^a-z0-9]', '', text.lower())
 
 def get_state_id(state:str):
+    """
+    Get State ID from static JSON file based on state abbreviation
+    Args:
+        state (str): State abbreviation
+    Returns:
+        str | None: The state ID if found, else None
+    """
     data = json.loads(Path("output/static/state_data.json").read_text(encoding="utf-8"))
     
     return next(
@@ -36,6 +43,13 @@ def init_tmp_path():
     os.makedirs(STATIC_FILE_PATH, exist_ok=True) # For cache, static files
     os.makedirs(OUTPUT_FILE_PATH, exist_ok=True) # For final output data
 
+
 def save_to_json(full_file_path:str, content:Any):
+    """
+    Save content to a JSON file.
+    Args:
+        full_file_path (str): The full path where the JSON file will be saved
+        content (Any): The content to save in JSON format
+    """
     with open(full_file_path, 'w') as f:
         json.dump(content, f, ensure_ascii=False)

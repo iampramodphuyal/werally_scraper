@@ -13,53 +13,7 @@ from pathlib import Path
 client = BaseClient(base_url="https://connect.werally.com")
 logger = get_logger("BaseClient")
 
-COOKIES = ""
-
 REQ_YEARS = ["2026"]
-
-def login():
-    global COOKIES
-    url = "/rest/user/v1/guest/login"
-    
-    try:
-        response = client._request("GET", url)
-        if response is None:
-            logger.warning(f"Could not Return Response for endpoint: {url}")
-            return
-        COOKIES = "; ".join(f"{k}={v}" for k, v in response['cookies'].items())
-    except Exception as e:
-        logger.debug(f"An error occurred during the request: {e}")
-
-
-
-def request():
-    # url = "/rest/guide/v1/guidedSearch/plan/765?language=en"
-    # url = "/rest/geolocation/v1/location/45247"
-
-    # search provider with npi
-    url = "/rest/provider/v4/search/filtered?accountPolicyNumber=&center=-84.652124,39.186931&configuration=uhc.exchange&distanceMiles=100&from=0&includeAggregations=true&includeBehavioralCarePaths=true&includeBillingCodeCarePaths=true&includeOutOfNetwork=false&isEapFilterSuppressed=false&isMedicalVirtualCareSuppressed=false&isTelementalHealthSuppressed=false&nptV21Enabled=true&planTierLevel=standard&planVariation=&planYear=2026&products.medical=923:923&products.medical=923:923&searchType=areaOfExpertise,facilityServiceCode,person,place,specialtyCategory,hcbsService,hcbsWaiver,specialty,medicalGroup,commonCondition,providerWithoutLocationGroup,carePath,billingCode,dynamicNationalProvider&selectedLang=en&sort=score&splitAnpReferralTypes=true&state=OH&suppressCostEfficiencySort=false&suppressType=virtualVisit&term=1083020564&timeZone=Asia%2FKatmandu&userNetworkId=923&zipCode=45247"
-    headers = {
-    'accept': 'application/json, text/plain, */*',
-    'accept-language': 'en',
-    'context-config-consumersource': 'connect-web',
-    'context-config-partnergroup': 'uhc',
-    'context-config-partnerid': 'uhc.exchange',
-    'current-connect-session-type': 'guest',
-    'priority': 'u=1, i',
-    'referer': 'https://connect.werally.com/searchResults/45247/page-1?term=1083020564&searchType=all&lat=39.186931&long=-84.652124&propFlow=true',
-    'sec-ch-ua': '"Brave";v="141", "Not?A_Brand";v="8", "Chromium";v="141"',
-    'sec-ch-ua-mobile': '?0',
-    'sec-ch-ua-platform': '"Linux"',
-    'sec-fetch-dest': 'empty',
-    'sec-fetch-mode': 'cors',
-    'sec-fetch-site': 'same-origin',
-    'sec-gpc': '1',
-    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36',
-    'x-rally-locale': 'en-US',
-    }
-    response = client._request("GET", url, headers=headers)
-    data = json.loads(response['body'])
-    print(json.dumps(data, indent=4))
 
 def process_json_file(file_path):
     """
@@ -88,7 +42,6 @@ def process_json_file(file_path):
         raise
     
     coords = get_coordinates(zip)
-    print(coords)
     
     available_plans = search_plan_for_state(state)
    
@@ -128,7 +81,14 @@ def process_json_file(file_path):
     get_provider_info(search_result, search_radius, plan_code)
 
 
-def get_provider_info(provider_info:dict, search_radius:str|int, plan_code:str|int):
+def get_provider_info(provider_info:dict, search_radius:str|int, plan_code:str|int) -> None:
+    """
+    Method to get provider full info and save the raw json to file.
+    Args:
+        provider_info (dict): Provider information dictionary
+        search_radius (str|int): Search radius in miles
+        plan_code (str|int): Plan code identifier
+    """
     provider_id = provider_info['id']
     coverage_type = provider_info['providerCoverageType']
     lon = provider_info['locations'][0]['address']['geo'][0]
@@ -146,8 +106,6 @@ def get_provider_info(provider_info:dict, search_radius:str|int, plan_code:str|i
     PROVIDER_HEADERS['context-config-plancode'] = str(plan_code)
     PROVIDER_HEADERS['referer'] = f"https://connect.werally.com/provider/{provider_id}?locationId={locationId}&zipCode={zip}&lat={lat}&long={lon}&distanceMiles={SEARCH_RADIUS}&comparing=1&coverageType={coverage_type}&propFlow=true" 
    
-    print(PROVIDER_HEADERS)
-    print(f"Endpoint: {url}")
     payload = [f"{plan_code}"]
     
     try:
@@ -159,6 +117,18 @@ def get_provider_info(provider_info:dict, search_radius:str|int, plan_code:str|i
 
    
 def search_provider(zip:str|int, state:str ,coords:dict ,plan_code:str|int, search_term:str, search_radius:str|int) -> dict:
+    """
+    Search for a provider using the given parameters.
+    Args:
+        zip (str|int): Zip code to search in
+        state (str): State abbreviation
+        coords (dict): Coordinates dictionary with 'lat' and 'lon'
+        plan_code (str|int): Plan code identifier
+        search_term (str): Search term, typically NPI
+        search_radius (str|int): Search radius in miles
+    Returns:
+        dict: The search result dictionary if found, else empty dict   
+    """
     logger.info(f"Processing To Search For Zip: {zip} | Plan Code: {plan_code} | Search Term: {search_term}")
     joined_coords = ",".join(str(x) for x in coords)
     random_timezone = quote_plus(get_random_timezone())
@@ -212,6 +182,10 @@ def search_provider(zip:str|int, state:str ,coords:dict ,plan_code:str|int, sear
 def search_plan_for_state(state:str) -> dict:
     """
     Search Plans for Given State and Returns the value
+    Args:
+        state (str): State abbreviation
+    Returns:
+        dict: The available plans for the state
     """
 
     logger.info(f"Searching Available Plans For State: {state}")
@@ -244,7 +218,7 @@ def get_coordinates(zip:Union[str, int]) -> dict:
     return {}
 
 
-def get_available_state_data():
+def get_available_state_data() -> None:
     """
     Method to get available state data. Since this is a common file, we can import and save the content at the start of execution. 
     """
