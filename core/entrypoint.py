@@ -1,5 +1,6 @@
 import re
 import json
+import gc
 from typing import Union
 from .base_client import BaseClient
 from logger.logger import get_logger
@@ -66,11 +67,25 @@ def process_json_file(file_path):
     Args:
         file_path (str): Path to the JSON file to process
     """
-    content = json.load(open(file_path, 'r'))
-    networks = content['networks']
-    state = content['addresses'][0]['state'].strip().upper()
-    zip = content['addresses'][0]['zip'].strip().upper()
-    search_term = content['provider']['npi']
+    try:
+        with open(file_path, 'r') as f:
+            content = json.load(f)
+            
+        # Extract needed data and clear the full content
+        networks = content['networks']
+        state = content['addresses'][0]['state'].strip().upper()
+        zip = content['addresses'][0]['zip'].strip().upper()
+        search_term = content['provider']['npi']
+        
+        # Clear large objects we don't need anymore
+        content = None
+        gc.collect()
+    except (IOError, json.JSONDecodeError) as e:
+        logger.error(f"Error reading or parsing {file_path}: {e}")
+        raise
+    except KeyError as e:
+        logger.error(f"Missing required field in {file_path}: {e}")
+        raise
     
     coords = get_coordinates(zip)
     print(coords)

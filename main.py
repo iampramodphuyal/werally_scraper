@@ -1,7 +1,16 @@
+import gc
+import os
+import psutil
 from core.entrypoint import process_json_file
 # from core.entrypoint import request, get_coordinates, get_available_state_data
 from utils.utils import init_tmp_path
 from logger.logger import get_logger
+
+def log_memory_usage():
+    """Log current memory usage"""
+    process = psutil.Process(os.getpid())
+    mem = process.memory_info().rss / 1024 / 1024  # Convert to MB
+    logger.debug(f"Current memory usage: {mem:.2f} MB")
 
 
 if __name__ == "__main__":
@@ -23,6 +32,15 @@ if __name__ == "__main__":
     if not json_files:
         logger.info(f"No JSON files found in {data_dir}")
     else:
+        processed_count = 0
+        batch_size = 5  # Adjust based on your memory usage patterns
+        
+        # Log initial memory usage
+        try:
+            log_memory_usage()
+        except ImportError:
+            logger.warning("psutil not installed - memory monitoring disabled")
+            
         # Use a thread pool to process files in parallel with a fixed concurrency limit
         with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
             futures = {executor.submit(process_json_file, jf): jf for jf in json_files}
@@ -30,5 +48,25 @@ if __name__ == "__main__":
                 jf = futures[fut]
                 try:
                     fut.result()
+                    processed_count += 1
+                    
+                    # Run garbage collection after each batch
+                    if processed_count % batch_size == 0:
+                        # Clear memory after processing a batch of files
+                        gc.collect()
+                        logger.debug(f"Garbage collection run after processing {processed_count} files")
+                        try:
+                            log_memory_usage()
+                        except ImportError:
+                            pass
+                        
                 except Exception as e:
                     logger.critical(f"Error processing {jf}: {e}")
+            
+        # Final garbage collection after all files are processed
+        gc.collect()
+        logger.debug("Final garbage collection run")
+        try:
+            log_memory_usage()
+        except ImportError:
+            pass
