@@ -1,3 +1,4 @@
 output/
 get_provider_details.py
 data_sample_to_search/
+logs/
